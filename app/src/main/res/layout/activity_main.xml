@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:MyView="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <com.baway.wangpeiyan.MyView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        MyView:textBg="@color/colorAccent"
+        MyView:textsize="18"
+        MyView:viewBg="#8B4513"
+        />
+</RelativeLayout>
